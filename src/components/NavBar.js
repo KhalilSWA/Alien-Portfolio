@@ -37,7 +37,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src="https://media.tenor.com/Hgbk80bUh2UAAAAj/xenomorph-alien.gif" alt="Logo" style={{width:"200px",transform:"rotate(0deg)"}}/>
+            <img src="https://media.tenor.com/Hgbk80bUh2UAAAAj/xenomorph-alien.gif" alt="Logo" style={{width:"200px"}}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -50,9 +50,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="#"><img src="https://cdn.pixabay.com/animation/2022/08/03/01/00/01-00-27-517_512.gif" style={{width:"35px"}} alt="" /></a>
+                <a href="#"><img src="https://www.gifservice.fr/img/gif-vignette-small/127cae431945ef3af398b158d7047eb0/51590-multi-media-computer-internet-facebook.gif" style={{width:"35px"}} alt="" /></a>
+                <a href="#"><img src="https://qph.cf2.quoracdn.net/main-qimg-4e9467f024454dfa2b0a0e61074aebd1" style={{width:"35px"}} alt="" /></a>
+                <a href="#"><img src="https://i.pinimg.com/originals/f7/dc/b2/f7dcb2817ad147c8b1d700ceb1d8cb28.gif" style={{width:"35px",height:"35px",borderRadius:"50%"}} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

@@ -38,7 +38,7 @@ export const Skills = () => {
                         <p>Most used work tools</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src="https://1000logos.net/wp-content/uploads/2023/04/Visual-Studio-logo.png" alt="Image" style={{width:"170px",height:"170px"}}/>
+                                <img src="https://1000logos.net/wp-content/uploads/2023/04/Visual-Studio-logo.png" alt="Image" style={{width:"250px",height:"170px"}}/>
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
@@ -66,7 +66,7 @@ export const Skills = () => {
                                 <h5>Photoshop</h5>
                             </div>
                             <div className="item">
-                                <img src="https://1000logos.net/wp-content/uploads/2020/06/Illustrator-Logo.png" alt="Image" style={{width:"170px",height:"170px"}} />
+                                <img src="https://1000logos.net/wp-content/uploads/2020/06/Illustrator-Logo.png" alt="Image" style={{width:"260px",height:"170px"}} />
                                 <h5>Adobe Illustrator</h5>
                             </div>
                         </Carousel>
